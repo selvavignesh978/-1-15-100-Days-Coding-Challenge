@@ -1,0 +1,150 @@
+/* Universel */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Body contant */
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+/* header */
+header{
+    text-align: center;
+    background-color: #192338;
+    color: white;
+    padding: 25px;
+}
+/* Navigation  and Unorder list tag*/
+
+nav{
+    padding: 15px;
+}
+ul{
+    list-style: none;   
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    /* gap: 10px; */
+}
+li{
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    color:#6ab388;
+}
+/* Hero section */
+/* Banner images */
+.banner{
+    background-image: url(Images/Nature\ Landscape\ images.jpg);
+    display: inline-block;
+    height: inherit;
+}
+.banner div{
+    align-items: center;
+    width: fit-content;
+    padding: 25px;
+}
+/* Hero contant of Heading */
+.Hero h2{
+    text-align: center;
+    padding:15px;
+}
+.Hero div{
+    color:white ;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+/* Blog article */
+/* .one{
+    background-color: gray;
+    padding: 15px;
+    justify-content: center;
+}
+.one h2{
+    text-align: center; 
+    padding: 25px;   
+}
+.two{
+    justify-content: center;
+} */
+
+.article{
+    text-align: center;
+    padding: 25px;
+}
+.article img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+.article p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6rem;
+}
+.article h2{
+    padding: 25px;
+    text-align: center;
+}
+/* List section */
+.list-section h2{
+    text-align: center;
+    padding: 25px;    
+}
+.list-section ol{
+    display:grid;
+    font-style: italic;
+    margin-left: 35px;
+}
+/* Gallery section  */
+.nature h2{
+    text-align: center;
+    padding: 20px;
+}
+.nature div{ 
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+.nature img{
+    width: 300px;
+}
+
+/* About section */
+.about h2{
+    text-align: center;
+    padding: 25px;
+}
+.about p{
+    line-height: 1.6rem;
+    margin-left: 25px;
+}
+
+/* contact section */
+.contact h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.contact p{
+    margin-left: 25px;
+    line-height: 1.6rem;
+}
+/* Footer */
+footer{
+    background-color: #192338;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+
