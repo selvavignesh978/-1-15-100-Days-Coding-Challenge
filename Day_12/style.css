@@ -1,0 +1,89 @@
+/* universel sector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}          
+body{
+    background-color:white ;
+}
+/* header section */
+header{
+    background: black;
+    color: #ece9e9;
+    padding: 15px;
+    text-align: center;
+}
+/* Navagation section */
+ nav{
+    background: #555;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+margin: 10px;
+font-weight: bold;
+}
+nav a:hover{
+color:orangered;
+}
+/* Main section  */
+.contact-container{
+    width: 40%;
+    margin: 40px auto;
+    background: #ece9e9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(236, 204, 204);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1.5px solid gray;
+}
+textarea{
+    resize: none;
+}
+.oneclick {
+    align-self: center;
+}
+button{
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    width:30%;
+    border: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover{
+    background: lawngreen;
+    color: black;
+    font-weight: bold;
+}
+/* Footer section */
+footer{
+    background: #555;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+    
